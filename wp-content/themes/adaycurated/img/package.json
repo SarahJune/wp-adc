@@ -1,0 +1,24 @@
+{
+  "name": "adaycurated",
+  "version": "1.0.0",
+  "description": "blog by lindy and sarah",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sarahjune@bitbucket.org/sarahjune/adc.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Sarah Fischer",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/sarahjune/adc#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}

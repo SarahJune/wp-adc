@@ -1,0 +1,76 @@
+header {
+  padding: 10px 15px 0px 15px;
+  border-bottom: 1px solid $light-gray;
+  box-shadow: 0px 1px 10px 1px $light-gray;
+}
+.plants {
+  background-image: url(../img/succulents.jpg), url(../img/roses.jpg), url(../img/leaves.jpg);
+  background-repeat: no-repeat;
+  background-position: left, center, right;
+  background-size: 32.6%;
+  height: 250px;
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 26px;
+  font-variant: small-caps;
+  color: $gray;
+  height: 65px;
+  padding-top: 10px;
+  a {
+    margin: 25px;
+    text-decoration: none;
+    color: $gray
+  }
+  .home:hover {
+    color: $gray;
+  }
+  .authors:hover {
+    color: $green;
+  }
+  .about:hover {
+    color: $pink;
+  }
+  .blog:hover {
+    color: $blue;
+  }
+  .title {
+    font-size: 75px;
+    font-weight: 100;
+    line-height: 40px
+  }
+}
+
+footer {
+  text-align:center;
+  padding: 50px;
+  background-color: $white;
+  color: #30343D;
+  margin-top: 25px;
+  border-top: 1px solid $light-gray;
+  box-shadow: 0px 1px 10px 1px $light-gray;
+  display: block;
+  bottom: 0;
+  left: 0;
+  min-height: 100%;
+  clear: both;
+  img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+  h3 {
+    padding-bottom: 15px;
+  }
+  p {
+    font-size: 1.2em;
+    font-variant: small-caps;
+    color: $light-gray;
+  }
+}
+
