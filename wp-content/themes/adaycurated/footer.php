@@ -17,3 +17,7 @@
         ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
 
+    <?php wp_footer(); ?>
+
+ </body>
+</html>
