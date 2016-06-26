@@ -10,6 +10,7 @@
         </div>
         <?php the_excerpt(); ?>
       </article>
+      <?php wp_list_authors('show_fullname=1&optioncount=1&orderby=post_count&order=DESC&number=3'); ?>
       <hr>
       <article class="preview">
         <img src="<?php bloginfo('template_directory'); ?>/img/bottles.jpg" class="preview-image">

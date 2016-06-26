@@ -2,10 +2,8 @@
     <section class="blog_index">
       <h1><?php the_title(); ?>
       <article class="preview">
-        <img src="<?php bloginfo('template_directory'); ?>/img/bottles.jpg" class="preview-image">
         <div class="preview-info">
-          <h2>Example Headline</h2>
-          <h3>Date and Author</h3>
+          <h2>author.php</h3>
           <p>index.php</p>
         </div>
         <?php the_excerpt(); ?>
