@@ -1,13 +1,7 @@
 <?php define('WP_USE_THEMES', true); get_header(); ?>
     <section class="blog_index">
       <h1><?php the_title(); ?>
-      <article class="preview">
-        <div class="preview-info">
-          <h2>author.php</h3>
-          <p>index.php</p>
-        </div>
-        <?php the_excerpt(); ?>
-      </article>
+      <?php wp_list_authors('show_fullname=1&optioncount=1&orderby=post_count&order=DESC&number=3'); ?>
     </section>
     <aside class="sidebar">
       <section class="hp-authors">

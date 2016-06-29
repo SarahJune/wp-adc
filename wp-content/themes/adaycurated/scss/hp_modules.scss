@@ -22,19 +22,13 @@
 .preview {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding: 25px;
   div {
     display: inline;
   }
-
-  p {
-    margin-top: 5px;
-    padding-top: 5px;
-  }
 }
 .preview-image {
-  padding-right: 10px;
+  padding-right: 35px;
   width: 150px;
   height: 150px;
 }

@@ -24,17 +24,12 @@
   display: flex;
   -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   padding: 25px; }
   .preview div {
     display: inline; }
-  .preview p {
-    margin-top: 5px;
-    padding-top: 5px; }
 
 .preview-image {
-  padding-right: 10px;
+  padding-right: 35px;
   width: 150px;
   height: 150px; }
 
@@ -139,7 +134,7 @@ h1, h2, h3, h4, h5, h6, th, td, caption, p {
   color: #6c7678;
   font-weight: normal; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   font-family: "Pompiere";
   font-variant: small-caps;
   letter-spacing: 1px; }
@@ -159,25 +154,28 @@ h1 {
   margin-bottom: 25px; }
 
 h2 {
-  font-size: 24px;
-  font-weight: 700; }
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px; }
 
 h3, p {
-  font-size: 18px;
+  font-family: "Lato";
   font-weight: 300; }
 
 h3 {
-  font-style: italic; }
+  margin: 10px 0;
+  font-size: 14px; }
 
 h4 {
   font-size: 2.25em; }
 
 p {
-  font-family: "Lato"; }
+  font-size: 18px;
+  line-height: 28px; }
 
 hr {
   border: none;
-  height: 1px;
-  width: 80%;
-  margin: 5% auto;
+  height: 1.5px;
+  width: 75%;
+  margin: 3% auto;
   background: #ccc; }

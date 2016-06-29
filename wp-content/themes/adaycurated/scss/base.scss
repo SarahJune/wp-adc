@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6, th, td, caption, p {
   font-weight: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   font-family: $headline;
   font-variant: small-caps;
   letter-spacing: 1px;
@@ -49,29 +49,31 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
+  line-height: 28px;
 }
 
 h3, p {
-  font-size: 18px;
+  font-family: $text;
   font-weight: 300;
 }
-
 h3 {
-  font-style: italic;
+  margin: 10px 0;
+  font-size: 14px;
 }
 h4 {
   font-size: 2.25em;
 }
 p {
-  font-family: $text;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 hr {
   border: none;
-  height: 1px;
-  width: 80%;
-  margin: 5% auto;
+  height: 1.5px;
+  width: 75%;
+  margin: 3% auto;
   background: #ccc;
 }
