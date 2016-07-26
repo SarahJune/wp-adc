@@ -1,3 +1,54 @@
-.about {
-  width: 50%
+h2 {
+  color: $green;
+  font-size: 2.5em;
+  margin-bottom: 25px;
+}
+.authors {
+  margin: 100px 200px;
+}
+.authors_lindy, .authors_sarah {
+  margin: 20px;
+  padding: 20px;
+  .social_links {
+
+  }
+  .sarah_headshot, .lindy_headshot {
+    width: 200px;
+    height: 200px;
+    clear: both;
+    margin: 10px;
+  }
+  p {
+    display: inline-block;
+    display: block;
+    margin-bottom: 25px;
+  }
+}
+.authors_lindy {
+  .lindy_headshot {
+    float: left;
+    margin-right: 25px;
+    margin-left: 0;
+  }
+  p {
+      margin-left: 0px;
+  }
+}
+.authors_sarah {
+  h2 {
+    text-align: right;
+  }
+  img {
+    justify-content: flex-end;
+  }
+  clear: both;
+  .social_links {
+    text-align: right;
+  }
+  .sarah_headshot {
+    float: right;
+    margin-left: 25px;
+    margin-right: 0;
+  }
+
 }

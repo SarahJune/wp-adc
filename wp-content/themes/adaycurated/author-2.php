@@ -6,7 +6,7 @@
   $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author));
   ?>
 
-  <h2>About (author-2): <?php echo $curauth->nickname; ?></h2>
+  <h2>About Lindy Levinson: <?php echo $curauth->nickname; ?></h2>
   <dl>
     <dt>Website</dt>
     <dd><a href="<?php echo $curauth->user_url; ?>"><?php echo $curauth->user_url; ?></a></dd>

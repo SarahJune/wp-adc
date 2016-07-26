@@ -23,10 +23,10 @@
   <header>
       <div class="plants"></div>
       <nav>
-        <a class="home" href="/">home</a>
-        <a class="about" href="/about">about</a>
-        <span class="title">a day curated</span>
-        <a class="blog" href="/blog">blog</a>
-        <a class="authors" href="/authors">authors</a>
+        <a class="nav_home" href="/">home</a>
+        <a class="nav_about" href="/about">about</a>
+        <span class="nav_title">a day curated</span>
+        <a class="nav_blog" href="/blog">blog</a>
+        <a class="nav_authors" href="/authors">authors</a>
       </nav>
     </header>

@@ -1,122 +1,3 @@
-.sidebar {
-  width: 25%;
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: 125px; }
-  .sidebar hr {
-    color: #c1c0c0;
-    width: 75px;
-    margin-top: 1em;
-    margin-bottom: 1.5em; }
-
-.blog_index {
-  width: 65%;
-  float: left;
-  margin: 5%; }
-
-.preview {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  padding: 25px; }
-  .preview div {
-    display: inline; }
-
-.preview-image {
-  padding-right: 35px;
-  width: 150px;
-  height: 150px; }
-
-.preview-info {
-  display: inline; }
-  .preview-info h2, .preview-info h3, .preview-info p {
-    display: block; }
-
-.hp-authors {
-  padding: 80px; }
-  .hp-authors h4 {
-    color: #0b987a; }
-
-.hp-author-image {
-  width: 100%;
-  height: 100%; }
-
-.hp-cats h4 {
-  color: #d02a60; }
-
-.about {
-  width: 50%; }
-
-header {
-  padding: 10px 15px 0px 15px;
-  border-bottom: 1px solid #c1c0c0;
-  box-shadow: 0px 1px 10px 1px #c1c0c0; }
-
-.plants {
-  background-image: url(../img/succulents.jpg), url(../img/roses.jpg), url(../img/leaves.jpg);
-  background-repeat: no-repeat;
-  background-position: left, center, right;
-  background-size: 32.6%;
-  height: 250px;
-  width: 100%; }
-
-nav {
-  text-align: center;
-  font-family: 'Lato';
-  font-weight: 300;
-  font-size: 26px;
-  font-variant: small-caps;
-  color: #6c7678;
-  height: 65px;
-  padding-top: 10px; }
-  nav a {
-    margin: 25px;
-    text-decoration: none;
-    color: #6c7678; }
-  nav .home:hover {
-    color: #6c7678; }
-  nav .authors:hover {
-    color: #0b987a; }
-  nav .about:hover {
-    color: #d02a60; }
-  nav .blog:hover {
-    color: #89ccd7; }
-  nav .title {
-    font-size: 75px;
-    font-weight: 100;
-    line-height: 40px; }
-
-footer {
-  text-align: center;
-  padding: 50px;
-  background-color: #F0F0F0;
-  color: #30343D;
-  margin-top: 25px;
-  border-top: 1px solid #c1c0c0;
-  box-shadow: 0px 1px 10px 1px #c1c0c0;
-  display: block;
-  bottom: 0;
-  left: 0;
-  min-height: 100%;
-  clear: both; }
-  footer img {
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    margin-bottom: 25px; }
-  footer h3 {
-    padding-bottom: 15px; }
-  footer p {
-    font-size: 1.2em;
-    font-variant: small-caps;
-    color: #c1c0c0; }
-
 html, body, div, form, fieldset, legend, label {
   margin: 0;
   padding: 0; }
@@ -179,3 +60,162 @@ hr {
   width: 75%;
   margin: 3% auto;
   background: #ccc; }
+
+.sidebar {
+  width: 25%;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 125px; }
+  .sidebar hr {
+    color: #c1c0c0;
+    width: 75px;
+    margin-top: 1em;
+    margin-bottom: 1.5em; }
+
+.blog_index {
+  width: 65%;
+  float: left;
+  margin: 5%; }
+
+.preview {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 25px; }
+  .preview div {
+    display: inline; }
+
+.preview-image {
+  padding-right: 35px;
+  width: 150px;
+  height: 150px; }
+
+.preview-info {
+  display: inline; }
+  .preview-info h2, .preview-info h3, .preview-info p {
+    display: block; }
+
+.hp-authors {
+  padding: 80px; }
+  .hp-authors h4 {
+    color: #0b987a; }
+
+.hp-author-image {
+  width: 100%;
+  height: 100%; }
+
+.hp-cats h4 {
+  color: #d02a60; }
+
+h2 {
+  color: #0b987a;
+  font-size: 2.5em;
+  margin-bottom: 25px; }
+
+.authors {
+  margin: 100px 200px; }
+
+.authors_lindy, .authors_sarah {
+  margin: 20px;
+  padding: 20px; }
+  .authors_lindy .sarah_headshot, .authors_lindy .lindy_headshot, .authors_sarah .sarah_headshot, .authors_sarah .lindy_headshot {
+    width: 200px;
+    height: 200px;
+    clear: both;
+    margin: 10px; }
+  .authors_lindy p, .authors_sarah p {
+    display: inline-block;
+    display: block;
+    margin-bottom: 25px; }
+
+.authors_lindy .lindy_headshot {
+  float: left;
+  margin-right: 25px;
+  margin-left: 0; }
+
+.authors_lindy p {
+  margin-left: 0px; }
+
+.authors_sarah {
+  clear: both; }
+  .authors_sarah h2 {
+    text-align: right; }
+  .authors_sarah img {
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+  .authors_sarah .social_links {
+    text-align: right; }
+  .authors_sarah .sarah_headshot {
+    float: right;
+    margin-left: 25px;
+    margin-right: 0; }
+
+header {
+  padding: 10px 15px 0px 15px;
+  border-bottom: 1px solid #c1c0c0;
+  box-shadow: 0px 1px 10px 1px #c1c0c0; }
+
+.plants {
+  background-image: url(../img/succulents.jpg), url(../img/roses.jpg), url(../img/leaves.jpg);
+  background-repeat: no-repeat;
+  background-position: left, center, right;
+  background-size: 32.6%;
+  height: 250px;
+  width: 100%; }
+
+nav {
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 26px;
+  font-variant: small-caps;
+  color: #6c7678;
+  height: 65px;
+  padding-top: 10px; }
+  nav a {
+    margin: 25px;
+    text-decoration: none;
+    color: #6c7678; }
+  nav .nav_home:hover {
+    color: #6c7678; }
+  nav .nav_authors:hover {
+    color: #0b987a; }
+  nav .nav_about:hover {
+    color: #d02a60; }
+  nav .nav_blog:hover {
+    color: #89ccd7; }
+  nav .nav_title {
+    font-size: 75px;
+    font-weight: 100;
+    line-height: 40px; }
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #F0F0F0;
+  color: #30343D;
+  margin-top: 25px;
+  border-top: 1px solid #c1c0c0;
+  box-shadow: 0px 1px 10px 1px #c1c0c0;
+  display: block;
+  bottom: 0;
+  left: 0;
+  min-height: 100%;
+  clear: both; }
+  footer img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-bottom: 25px; }
+  footer h3 {
+    padding-bottom: 15px; }
+  footer p {
+    font-size: 1.2em;
+    font-variant: small-caps;
+    color: #c1c0c0; }

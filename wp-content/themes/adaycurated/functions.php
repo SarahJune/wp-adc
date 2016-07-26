@@ -35,3 +35,4 @@ function new_excerpt_more($output) {
     return $output . ' <a href="'. get_permalink() . '">' . 'Read More' . '</a>';
 }
 add_filter('get_the_excerpt', 'new_excerpt_more');
+?>

@@ -1,8 +1,4 @@
 @import '_variables';
-@import 'style';
-@import 'hp_modules';
-@import 'author_modules';
-@import 'frame';
 
 html, body, div, form, fieldset, legend, label {
   margin: 0;
@@ -77,3 +73,9 @@ hr {
   margin: 3% auto;
   background: #ccc;
 }
+
+@import 'style';
+@import 'hp_modules';
+@import 'author_modules';
+@import 'frame';
+

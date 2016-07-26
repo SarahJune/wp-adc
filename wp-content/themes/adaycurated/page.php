@@ -6,6 +6,8 @@
     <h2>Example Headline</h2>
     <h3>Date and Author</h3>
     <p>page.php</p>
+    <p><?php the_content(); ?></p>
+    <p>teeest</p>
   </article>
 </section>
 
