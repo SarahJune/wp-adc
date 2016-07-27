@@ -115,29 +115,25 @@ hr {
 
 h2 {
   color: #0b987a;
-  font-size: 2.5em;
-  margin-bottom: 25px; }
+  font-size: 2.5em; }
 
-.authors {
+.authors, .about {
   margin: 100px 200px; }
 
 .authors_lindy, .authors_sarah {
-  margin: 20px;
-  padding: 20px; }
+  margin-bottom: 50px; }
   .authors_lindy .sarah_headshot, .authors_lindy .lindy_headshot, .authors_sarah .sarah_headshot, .authors_sarah .lindy_headshot {
     width: 200px;
     height: 200px;
     clear: both;
-    margin: 10px; }
+    padding-top: 8px; }
   .authors_lindy p, .authors_sarah p {
-    display: inline-block;
     display: block;
     margin-bottom: 25px; }
 
 .authors_lindy .lindy_headshot {
   float: left;
-  margin-right: 25px;
-  margin-left: 0; }
+  margin-right: 25px; }
 
 .authors_lindy p {
   margin-left: 0px; }
@@ -146,15 +142,26 @@ h2 {
   clear: both; }
   .authors_sarah h2 {
     text-align: right; }
-  .authors_sarah img {
-    -ms-flex-pack: end;
-    justify-content: flex-end; }
   .authors_sarah .social_links {
     text-align: right; }
   .authors_sarah .sarah_headshot {
     float: right;
-    margin-left: 25px;
-    margin-right: 0; }
+    margin-left: 25px; }
+
+.author_contact {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100px;
+  margin: 20px 0 15px 0; }
+  .author_contact img {
+    width: 35px;
+    height: 35px;
+    display: inline-block; }
+
+.about p {
+  margin: 0 0 25px 0; }
 
 header {
   padding: 10px 15px 0px 15px;
@@ -208,13 +215,10 @@ footer {
   left: 0;
   min-height: 100%;
   clear: both; }
-  footer img {
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    margin-bottom: 25px; }
-  footer h3 {
-    padding-bottom: 15px; }
+  footer .contact img {
+    width: 30px;
+    height: 30px;
+    padding: 5px; }
   footer p {
     font-size: 1.2em;
     font-variant: small-caps;

@@ -22,7 +22,7 @@
       <section class="hp-authors">
         <h4>Authors</h4>
         <hr>
-        <img src="<?php bloginfo('template_directory'); ?>/img/bottles.jpg" class="hp-author-image">
+        <img class="hp-author-image" src="<?php bloginfo('template_directory'); ?>/img/sarah-and-lindy.jpg" class="preview-image">
         <p>Lindy Merida Levinson<br /> &amp; <br />Sarah June Fischer</p>
       </section>
       <section class="hp-cats">

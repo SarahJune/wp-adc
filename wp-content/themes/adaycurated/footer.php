@@ -1,7 +1,9 @@
     <footer>
       <h3>Get in Touch</h3>
-      <img src=" " alt="mail">
-      <img src=" " alt="twitter">
+      <div class="contact">
+        <img class="contact-mail" src="<?php bloginfo('template_directory'); ?>/img/mail.png" alt="mail">
+        <img class="contact-twitter" src="<?php bloginfo('template_directory'); ?>/img/twitter.png" alt="twitter">
+      </div>
       <p>copyright a day curated</p>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

@@ -1,14 +1,12 @@
 h2 {
   color: $green;
   font-size: 2.5em;
-  margin-bottom: 25px;
 }
-.authors {
+.authors, .about {
   margin: 100px 200px;
 }
 .authors_lindy, .authors_sarah {
-  margin: 20px;
-  padding: 20px;
+  margin-bottom: 50px;
   .social_links {
 
   }
@@ -16,19 +14,18 @@ h2 {
     width: 200px;
     height: 200px;
     clear: both;
-    margin: 10px;
+    padding-top: 8px;
   }
   p {
-    display: inline-block;
     display: block;
     margin-bottom: 25px;
+
   }
 }
 .authors_lindy {
   .lindy_headshot {
     float: left;
     margin-right: 25px;
-    margin-left: 0;
   }
   p {
       margin-left: 0px;
@@ -38,9 +35,6 @@ h2 {
   h2 {
     text-align: right;
   }
-  img {
-    justify-content: flex-end;
-  }
   clear: both;
   .social_links {
     text-align: right;
@@ -48,7 +42,22 @@ h2 {
   .sarah_headshot {
     float: right;
     margin-left: 25px;
-    margin-right: 0;
   }
+}
+.author_contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin: 20px 0 15px 0;
+  img {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+  }
+}
 
+.about {
+  p {
+    margin: 0 0 25px 0;
+  }
 }
