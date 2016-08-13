@@ -12,7 +12,7 @@ header {
   width: 100%;
 }
 
-nav {
+.header_nav, .blog_nav, {
   text-align: center;
   font-family: 'Lato';
   font-weight: 300;
@@ -21,13 +21,15 @@ nav {
   color: $gray;
   height: 65px;
   padding-top: 10px;
-  a {
+  a, .current {
     margin: 25px;
     text-decoration: none;
+  }
+  a {
     color: $gray
   }
   .nav_home:hover {
-    color: $gray;
+    color: $black;
   }
   .nav_authors:hover {
     color: $green;
@@ -43,7 +45,16 @@ nav {
     font-weight: 100;
     line-height: 40px
   }
+  .current {
+    color: $blue;
+  }
 }
+
+.blog_nav {
+  width: 100%;
+  clear: both;
+}
+
 
 footer {
   text-align:center;

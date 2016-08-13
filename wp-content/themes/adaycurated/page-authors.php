@@ -1,6 +1,6 @@
 <?php /* Template Name: Authors Template */ ?>
 
-<?php define('WP_USE_THEMES', true); get_header(); ?>
+<?php get_header(); ?>
 
 <section class="authors">
   <h1><?php the_title(); ?></h1>

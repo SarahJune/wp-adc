@@ -1,24 +1,21 @@
-<?php define('WP_USE_THEMES', true); get_header(); ?>
-    <section class="blog_index">
-      <h1><?php the_title(); ?>
-      <?php wp_list_authors('show_fullname=1&optioncount=1&orderby=post_count&order=DESC&number=3'); ?>
-    </section>
-    <aside class="sidebar">
-      <section class="hp-authors">
-        <h4>Authors</h4>
-        <hr>
-        <img src="<?php bloginfo('template_directory'); ?>/img/bottles.jpg" class="hp-author-image">
-        <p>Lindy Merida Levinson<br /> &amp; <br />Sarah June Fischer</p>
-      </section>
-      <section class="hp-cats">
-        <h4>Categories</h4>
-        <hr>
-        <p>Kitchen</p>
-        <p>Closet</p>
-        <p>Career</p>
-        <p>Beauty</p>
-        <p>Finance</p>
-      </section>
-    </aside>
-  <?php get_footer(); ?>
+<?php get_header(); ?>
+  <?php $my_query = new WP_Query( $args )
+  <?php if ($my_query->have_posts()) : ?>
+    <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
+      <hr>
+      <article class="preview">
+        <img src="<?php bloginfo('template_directory'); ?>/img/bottles.jpg" class="preview-image">
+        <div class="preview-info">
+          <h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+          <h3><?php the_author(); ?> &nbsp; | &nbsp; <?php the_date(); ?></h3>
+          <p><?php the_excerpt(); ?></p>
+        </div>
+      </article>
+
+    <?php endwhile; ?>
+      <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+    <?php endif; ?>
+    <?php get_footer(); ?>
+  </body>
+</html>

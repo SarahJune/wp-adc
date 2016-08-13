@@ -1,6 +1,6 @@
 <?php /* Template Name: About Template */ ?>
 
-<?php define('WP_USE_THEMES', true); get_header(); ?>
+<?php get_header(); ?>
 
 <section class="about">
   <h1><?php the_title(); ?></h1>

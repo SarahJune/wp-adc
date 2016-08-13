@@ -22,7 +22,7 @@
 
   <header>
       <div class="plants"></div>
-      <nav>
+      <nav class="header_nav">
         <a class="nav_home" href="/">home</a>
         <a class="nav_about" href="/about">about</a>
         <span class="nav_title">a day curated</span>

@@ -1,4 +1,4 @@
-<?php define('WP_USE_THEMES', true); get_header(); ?>
+<?php get_header(); ?>
     <section class="blog_index">
       <h1>Blog</h1>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>

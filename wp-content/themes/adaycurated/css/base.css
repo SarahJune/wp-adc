@@ -107,8 +107,7 @@ hr {
     color: #0b987a; }
 
 .hp-author-image {
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 .hp-cats h4 {
   color: #d02a60; }
@@ -176,7 +175,7 @@ header {
   height: 250px;
   width: 100%; }
 
-nav {
+.header_nav, .blog_nav {
   text-align: center;
   font-family: 'Lato';
   font-weight: 300;
@@ -185,22 +184,29 @@ nav {
   color: #6c7678;
   height: 65px;
   padding-top: 10px; }
-  nav a {
+  .header_nav a, .header_nav .current, .blog_nav a, .blog_nav .current {
     margin: 25px;
-    text-decoration: none;
+    text-decoration: none; }
+  .header_nav a, .blog_nav a {
     color: #6c7678; }
-  nav .nav_home:hover {
-    color: #6c7678; }
-  nav .nav_authors:hover {
+  .header_nav .nav_home:hover, .blog_nav .nav_home:hover {
+    color: #000000; }
+  .header_nav .nav_authors:hover, .blog_nav .nav_authors:hover {
     color: #0b987a; }
-  nav .nav_about:hover {
+  .header_nav .nav_about:hover, .blog_nav .nav_about:hover {
     color: #d02a60; }
-  nav .nav_blog:hover {
+  .header_nav .nav_blog:hover, .blog_nav .nav_blog:hover {
     color: #89ccd7; }
-  nav .nav_title {
+  .header_nav .nav_title, .blog_nav .nav_title {
     font-size: 75px;
     font-weight: 100;
     line-height: 40px; }
+  .header_nav .current, .blog_nav .current {
+    color: #89ccd7; }
+
+.blog_nav {
+  width: 100%;
+  clear: both; }
 
 footer {
   text-align: center;
